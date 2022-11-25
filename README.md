@@ -1,5 +1,5 @@
 # fvtt-vampireV5darkCSS
-Custom CSS changes for the Foundry VTT Vampire V5 system (https://github.com/Rayji96/foundry-V5). This changes both dark and light theme stylings and adds some QoL changes.
+Custom CSS changes for the Foundry VTT World of Darkness V5 system (https://github.com/Rayji96/foundry-V5). This changes both dark and light theme stylings and adds some QoL changes.
 
 ![My Image](image.png "Preview")
 
