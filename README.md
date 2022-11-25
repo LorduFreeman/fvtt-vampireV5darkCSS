@@ -9,4 +9,5 @@ Custom CSS changes for the Foundry VTT World of Darkness V5 system (https://gith
 
 ## Things to know:
 - This might still have bugs, feel free to report them in the issues tab or directly via Discord
+- Mainly an overhaul for the Vampire Sheets but probably works for Hunter as well
 - This includes imports from Google Fonts for the custom fonts - if you do not have an internet connection while playing these fonts probably won't display.
