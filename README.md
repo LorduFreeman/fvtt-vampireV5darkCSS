@@ -5,7 +5,7 @@ Custom CSS changes for the Foundry VTT Vampire V5 system (https://github.com/Ray
 
 ## How to install:
 - Get the Custom CSS module
-- Paste the text from the darkcss.txt file into the Custom CSS field in its settings, save
+- Paste the content from the v5css.txt file into the Custom CSS field in its settings, save
 
 ## Things to know:
 - This might still have bugs, feel free to report them in the issues tab or directly via Discord
