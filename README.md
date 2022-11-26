@@ -1,6 +1,7 @@
 # fvtt-vampireV5darkCSS
 Custom CSS changes for the Foundry VTT World of Darkness V5 system (https://github.com/Rayji96/foundry-V5). This changes both dark and light theme stylings and adds some QoL changes like hiding Add/Delete buttons when the sheet is locked.
 
+### Disclaimer: Screenshots are not updated frequently and might be outdated - I fine-tune a lot.
 ![My Image](image.png "Preview")
 
 ## How to install:
