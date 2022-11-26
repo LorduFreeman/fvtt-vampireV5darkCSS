@@ -16,6 +16,10 @@ darkgrey #121212
 white #f7f7f7 
 */
 
+.vtm5e .resource-label {
+    font-weight: 500;
+}
+
 .vtm5e .tabs .item {
     line-height: inherit;
     text-transform: uppercase;
@@ -60,6 +64,10 @@ select {
     border-radius: 2px;
 }
 
+.items-list .item-header {
+    font-size: 1.1em;
+}
+
 .vtm5e.dark-theme .items-list .item-header {
     color: #bb1020;
 }
@@ -79,6 +87,16 @@ select {
 
 .vtm5e.dark-theme .vtm5e input {
     color: #f7f7f7;
+}
+
+input[name="system.blood.resonance"] {
+    font-size: 1.2em;
+    font-family: 'Vollkorn';
+    font-weight: 700;
+}
+
+.vtm5e.dark-theme input[name="system.blood.resonance"] {
+color: #bb1020;
 }
 
 .vtm5e .window-content .header-fields .resource {
@@ -101,11 +119,6 @@ select {
 .vtm5e .sheet-header .profile-img {
     background: none;
     border: none;
-}
-
-.vtm5e.dark-theme .items-list .item-header {
-    color: #bb1020;
-    font-family: "Vollkorn";
 }
 
 .vtm5e .description-content {
@@ -132,16 +145,17 @@ select {
 
 .vtm5e .window-content .resource-label {
     text-transform: initial;
-    font-size: 1.5em;
+    font-size: 1.3em;
 }
 
 .vtm5e .window-content .abilities .ability .resource-label {
-    font-weight: bold;
-    font-size: 1.5em;
+    font-weight: 500;
+    font-size: 1.3em;
 }
 
 .vtm5e .items-list .item-name {
     font-size: 1.2em;
+	font-weight: initial;
 }
 
 .vtm5e.dark-theme .window-content nav.sheet-tabs {
@@ -274,6 +288,28 @@ optgroup {
     font-family: inherit;
     background: inherit;
     border: inherit;
+}
+.vtm5e .window-content {
+    font-family: Vollkorn, sans-serif;
+    font-weight: 500;
+}
+.tab.blood.active p {
+    color: #bb1020;
+    margin: 0;
+    min-height: auto;
+    font-size: 1.2em;
+    font-weight: 700;
+}
+
+.vtm5e.dark-theme .tab.blood.active p {
+    color: #bb1020;
+}
+
+.grid, .grid-2col {
+    margin: 0;
+}
+.sheet-header .grid-3col {
+    margin-bottom: 10px;
 }
 
 /* Proper removal of adding/deleting features when sheet is locked */
