@@ -275,18 +275,28 @@ optgroup {
     background: inherit;
     border: inherit;
 }
+
+/* Proper removal of adding/deleting features when sheet is locked */
+
 .locked .item-delete {
     display: none;
 }
-
 .locked .discipline-delete {
+    display: none;
+}
+.locked a.item-control.edge-delete {
     display: none;
 }
 
 .locked a.item-control.discipline-create {
     display: none;
 }
-
 .locked a.item-control.item-create {
+    display: none;
+}
+.locked a.item-control.edge-create {
+    display: none;
+}
+.locked a.item-control.exceptionalskill-create {
     display: none;
 }
