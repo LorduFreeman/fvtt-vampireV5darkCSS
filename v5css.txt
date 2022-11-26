@@ -275,10 +275,18 @@ optgroup {
     background: inherit;
     border: inherit;
 }
-.item-delete {
-    margin-left: 1.2em;
+.locked .item-delete {
+    display: none;
 }
 
-.discipline-delete {
-    margin-left: 1.2em;
+.locked .discipline-delete {
+    display: none;
+}
+
+.locked a.item-control.discipline-create {
+    display: none;
+}
+
+.locked a.item-control.item-create {
+    display: none;
 }
