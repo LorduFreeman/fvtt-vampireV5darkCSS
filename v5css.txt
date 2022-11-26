@@ -310,7 +310,7 @@ optgroup {
     padding-bottom: 10px;
 }
 
-.vtm5e .locked .resource-value-empty {
+.vtm5e .locked .resource-value-empty:not(.hunger-value) {
     display: none;
 }
 
