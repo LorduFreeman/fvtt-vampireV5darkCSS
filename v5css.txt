@@ -61,7 +61,7 @@ select {
 
 .vtm5e .window-content .header-fields .resource {
     border: 1px solid #bb1020;
-    border-radius: 2px;
+    border-radius: 5px;
 }
 
 .items-list .item-header {
@@ -117,8 +117,8 @@ color: #bb1020;
 }
 
 .vtm5e .sheet-header .profile-img {
-    background: none;
     border: none;
+    border-radius: 3px 3px 0 0;
 }
 
 .vtm5e .description-content {
@@ -141,6 +141,7 @@ color: #bb1020;
     padding-bottom: 0.1em;
     border-bottom: 1px solid #790813;
     font-family: "Vollkorn";
+	font-weight: 700;
 }
 
 .vtm5e .window-content .resource-label {
@@ -170,6 +171,7 @@ color: #bb1020;
     font-size: 1.2em;
     border-top: 1px solid #790813;
     border-bottom: 1px solid #790813;
+	margin-bottom: 10px;
 }
 
 .vtm5e.dark-theme .window-content nav.sheet-tabs .item.active {
@@ -256,13 +258,6 @@ color: #bb1020;
     font-size: 1.2em;
 }
 
-.flex-group-center,
-.flex-group-left,
-.flex-group-right {
-    border: 0;
-    border-radius: 0;
-}
-
 h3.item-name.chat-portrait-text-size-name-generic {
     align-items: center;
     border-bottom: 0;
@@ -309,6 +304,18 @@ optgroup {
 }
 .sheet-header .grid-3col {
     margin-bottom: 10px;
+}
+
+.resource.flexrow.grid {
+    padding-bottom: 10px;
+}
+
+.vtm5e .locked .resource-value-empty {
+    display: none;
+}
+
+button.lock-btn {
+	border-radius: 0 0 3px 3px;
 }
 
 /* Proper removal of adding/deleting features when sheet is locked */
